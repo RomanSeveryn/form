@@ -1,0 +1,46 @@
+.register-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 25vw;
+  max-height: 40vh;
+  margin: 1.2em;
+  border: 1px solid grey;
+  
+}
+.register-form  input {
+  padding: 5px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+.title-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.margin-form {
+}
+.info-user {
+  
+}
+.name {
+  flex-basis: 45%;
+  justify-content: space-between;
+}
+.main-form {
+  display: flex;
+  flex-direction: column;
+  
+  align-content: space-between;
+  margin: 12px;
+}
+.main-form > input {
+  margin-bottom: 12px;
+  ;
+}
+.checkbox-form {
+
+}
+
