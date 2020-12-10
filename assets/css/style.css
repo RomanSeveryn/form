@@ -1,58 +1,70 @@
-.register-form {
+.container {
+  border: 2px solid;
   display: flex;
   flex-direction: column;
   max-width: 20vw;
-  max-height: 40vh;
-  margin: 1.2em;
-  border: 1px solid grey;
-  
+  max-height: 45vh;
+  margin: 12px;
 }
-.register-form  input {
-  padding: 5px;
+.title-form {
+  margin: 12px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 12px;
+}
+p {
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+}
+span:nth-child(2) {
+color:  #50A851;
 }
 .form {
   display: flex;
   flex-direction: column;
-  align-content: space-between;
-}
-.title-form {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-.margin-form {
+  justify-content: space-between;
   margin: 12px;
 }
 .info-user {
   display: flex;
+  flex-direction: row;
+  
+  
+}
+.name {
+  display: flex;
+  max-width: 36%;
+  padding: 0.4em;
+}
+.name + .name {
+  margin-left: 12px;
+  
+}
+.info-user > .name {
+  margin-left: 12px;
 }
 .data-user {
   display: flex;
   flex-direction: column;
-}
-.name {
-  /* flex-basis: 45%; */
   
-  margin: 12px;
 }
 .data {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-bottom: 12px;
-  
-}
-.main-form {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  
-  align-content: space-between;
-  margin: 12px; */
-}
-.main-form > input {
-  margin-bottom: 12px;
-  
+  flex-wrap: wrap;
+  margin: 12px;
+  padding: 0.4em;
 }
 .checkbox-form {
-
+  margin: 12px;
 }
-
+.button {
+  margin: 12px;
+  background-color: #50A851;
+  color: white;
+  padding: 0.4em;
+  font-size: 1em;
+}
