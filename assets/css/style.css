@@ -14,6 +14,9 @@ h1 {
   justify-content: center;
   margin: 12px;
 }
+
+
+
 p {
   display: flex;
   justify-content: center;
@@ -36,7 +39,7 @@ color:  #50A851;
 }
 .name {
   display: flex;
-  max-width: 36%;
+  max-width: 42%;
   padding: 0.4em;
 }
 .name + .name {
